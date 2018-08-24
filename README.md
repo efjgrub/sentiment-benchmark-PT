@@ -18,6 +18,8 @@ Microsoft Azure is rich in APIs for cognitive computing, but it has costs and do
 
 This method is the fastest, but what else should be careful, because with the low amounts of people contributing as the Lexico, we can have an error rate greater than the others.
 
+### Exemple
+
 ```bash
 [root@devspfortics sentiment-benchmark-PT]# python sentiment-azure.py &&  python sentiment-polarity.py && python sentiment-textblob.py
 ### AZURE ###
