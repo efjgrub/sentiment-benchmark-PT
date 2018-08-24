@@ -16,11 +16,11 @@ for frase in f:
 
 for n in sentiment['documents']:
         if n['score'] <= -0.1 :
-                print("id=>%s \tsentimento=Vermelho\tscore=>%s" % (n['id'], n['score']))
+                print("id=>%s \tsentiment=Red\tscore=>%s" % (n['id'], n['score']))
 
         if n['score'] >= 0.0 and n['score'] <= 0.65:
-                print("id=>%s \tsentimento=Amarelo\tscore=>%s" % (n['id'], n['score']))
+                print("id=>%s \tsentiment=Yellow\tscore=>%s" % (n['id'], n['score']))
 
         if n['score'] >= 0.66:
-                print("id=>%s \tsentimento=Verde\tscore=>%s" % (n['id'], n['score']))
+                print("id=>%s \tsentiment=Green\tscore=>%s" % (n['id'], n['score']))
 

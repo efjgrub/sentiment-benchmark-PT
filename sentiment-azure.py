@@ -50,10 +50,10 @@ sentiments = response.json()
 
 for n in sentiments['documents']:
 	if n['score'] <= 0.0 and n['score'] <= 0.20:
-		print("id=>%s \tsentimento=Vermelho\tscore=>%s" % (n['id'], n['score'])) 
+		print("id=>%s \tsentiment=Red\tscore=>%s" % (n['id'], n['score'])) 
 	
 	if n['score'] >= 0.21 and n['score'] <= 0.70:
-		print("id=>%s \tsentimento=Amarelo\tscore=>%s" % (n['id'], n['score'])) 
+		print("id=>%s \tsentiment=Yellow\tscore=>%s" % (n['id'], n['score'])) 
 
 	if n['score'] >= 0.71:
-		print("id=>%s \tsentimento=Verde\tscore=>%s" % (n['id'], n['score'])) 
+		print("id=>%s \tsentiment=Green\tscore=>%s" % (n['id'], n['score'])) 

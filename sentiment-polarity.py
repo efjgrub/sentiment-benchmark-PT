@@ -23,11 +23,11 @@ def Score_sentimento(frase):
 
 	score = sum(l_sentimento)
 	if score > 0:
-		return "Verde"
+		return "Green"
 	elif score == 0:
-		return "Amarelo"
+		return "Yellow"
 	else:
-		return "Vermelho"
+		return "Red"
 
 
 count = 1;
@@ -44,6 +44,6 @@ for frase in f:
 
 
 for n in sentiment['documents']:
-	print("id=>%s \tsentimento=%s" % (n['id'], n['score']))
+	print("id=>%s \tsentiment=%s" % (n['id'], n['score']))
 
 
