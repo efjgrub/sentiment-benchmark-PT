@@ -20,6 +20,7 @@ This method is the fastest, but what else should be careful, because with the lo
 
 ```bash
 [root@devspfortics sentiment-benchmark-PT]# python sentiment-azure.py &&  python sentiment-polarity.py && python sentiment-textblob.py
+### AZURE ###
 https://brazilsouth.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment
 id:1     Eu estou muito triste com a atuação de empresa, seus produtos estão com problemas e seu suporte é uma droga
 id:2     Nós aqui na empresa estamos todos muito tristes com a atuação de empresa, seus produtos estão com problemas e seu suporte é uma droga
@@ -40,6 +41,7 @@ id=>6   sentiment=Yellow        score=>0.21497052907943726
 id=>7   sentiment=Yellow        score=>0.2142857164144516
 id=>9   sentiment=Green score=>1.0
 id=>10  sentiment=Yellow        score=>0.34923967719078064
+### POLARITY ####
 id:1     Eu estou muito triste com a atuação de empresa, seus produtos estão com problemas e seu suporte é uma droga
 id:2     Nós aqui na empresa estamos todos muito tristes com a atuação de empresa, seus produtos estão com problemas e seu suporte é uma droga
 id:3     Excelente filme, um dos melhores, indico demais, :-)
@@ -60,6 +62,7 @@ id=>7   sentiment=Green
 id=>8   sentiment=Red
 id=>9   sentiment=Green
 id=>10  sentiment=Yellow
+### textBlob ###
 id:1     Eu estou muito triste com a atuação de empresa, seus produtos estão com problemas e seu suporte é uma droga
 id:2     Nós aqui na empresa estamos todos muito tristes com a atuação de empresa, seus produtos estão com problemas e seu suporte é uma droga
 id:3     Excelente filme, um dos melhores, indico demais, :-)
