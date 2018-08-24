@@ -2,7 +2,7 @@ from textblob import TextBlob
 from textblob.sentiments import NaiveBayesAnalyzer
 
 f = open("sentence.txt", "r")
-count = 1;
+count = 1
 sentiment = {'documents':[]}
 
 for frase in f:

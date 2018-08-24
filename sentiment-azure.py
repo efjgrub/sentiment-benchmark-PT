@@ -32,7 +32,7 @@ sentiment_api_url = text_analytics_base_url + "sentiment"
 print(sentiment_api_url)
 
 f = open("sentence.txt", "r")
-count = 1;
+count = 1
 documents = {'documents':[]}
 
 for frase in f:

@@ -30,7 +30,7 @@ def Score_sentimento(frase):
 		return "Red"
 
 
-count = 1;
+count = 1
 sentiment = {'documents':[]}
 
 f = open("sentence.txt", "r")
